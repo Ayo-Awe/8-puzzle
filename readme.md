@@ -2,12 +2,6 @@
 
 This project implements a simple **8-puzzle solver** in Go. The program attempts to find the shortest sequence of moves needed to transform an initial 3x3 puzzle state into the target solved state.
 
-## Features
-
-- Implements **Breadth-First Search (BFS)** to find the optimal solution.
-- Uses a **map for seen states** to avoid redundant computations.
-- Supports movements: `<` (left), `>` (right), `v` (down), `^` (up).
-
 ## Target State
 
 The goal is to transform any given puzzle into the following state:
